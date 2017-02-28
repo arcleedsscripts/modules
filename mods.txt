@@ -1,0 +1,114 @@
+
+------------------------- /apps/Modules/infrastructure -------------------------
+allinea/4.2.2-39422         lmutil/11.12.1.0v6
+ant/1.8.0                   maven/3.0.3
+autoconf/2.68               mercurial/1.9.2
+automake/1.13.2             mercurial/3.7.2
+bit/32                      mpe2/1.3.0
+bit/64                      mvapich/1.2rc1
+charm/6.2.2-namd            mvapich2/1.4(default)
+charm/6.3.2-namd            nvidia/280.13
+cmake/2.8.11.2              openmpi/1.2.9
+cmake/2.8.2                 openmpi/1.4(default)
+cmake/3.2.3                 openmpi/1.5.3
+darcs/2.5.2                 openmpi/1.6.5
+doxygen/1.8.8               sge
+flex/2.5.39                 sgedev
+git/1.7.3.1                 srb/3.3.1
+globus/5.0.4                subversion/1.6.15(default)
+intelmpi/4.1.0.024(default) subversion/1.6.9
+intelmpi/4.1.1.036          system
+intelmpi/5.1.0.038          test
+libtool/2.4.2               user
+licenses
+
+--------------------------- /apps/Modules/compilers ----------------------------
+epd/7.3-1               intel/15.0.0            pgi/13.6
+gnu/4.2.3               intel/16.0.2            python/2.6.5
+gnu/4.4.5               intel/2011.2.137        python/2.7.2
+gnu/4.7.1               java/1.6.0_17           python/2.7.6
+gnu/4.8.1               java/7u45               python/3.1.2(default)
+gnu/5.3.0               mono/2.8.1              python/3.3.6
+gnu/native(default)     perl/native             python/native
+intel/11.1.059(default) pgi/10.0(default)       tcl/8.3.5
+intel/13.1.3.192        pgi/11.3                yasm/1.2.0
+
+--------------------------- /apps/Modules/libraries ----------------------------
+acml/4.4.0                 mkl/11.0u5
+antlr/2.7.7                mkl/11.2
+armadillo/3.810.2          netcdf/3.6.3(default)
+atlas/3.10.1               netcdf/4.3.0
+atlas/3.8.3                netlib/3.3.0
+boost/1.53.0               ompP/0.8.5
+cube/4.2.3                 opencv/2.2.0
+cube/4.3.1                 opencv/2.4.6.1
+darshan/2.3.0              openjpeg/1.5.1
+eigen/3.2.2                openslide/3.2.6
+ffmpeg/0.6.2               otf2/1.2.1
+ffmpeg/1.2                 otf2/1.5.1
+ffmpeg/2.0.2               papi/5.4.0
+fftw/2.1.5                 pdt/3.20
+fftw/3.2.2                 perl-libs/1.0.0
+fftw/3.3.3                 petsc/3.1-p8
+freetype/2.4.12            pgplot/5.2.2
+gdal/1.11.0                proj/4.8.0
+geos/3.4.2                 python-libs/1.0.0
+graphviz/2.28.0            python-libs/1.0.1(default)
+gsl/1.14                   python-libs/1.0.2
+gsl/1.15                   python-libs/1.0.3
+harminv/1.3.1              python-libs/2.4.0
+hdf-java/2.9               qt/4.8.6
+hdf5/1.8.11                root/5.34.05
+hdf5/1.8.12                root/5.34.23
+hdf5/1.8.5p1(default)      scorep/1.3
+hypre/2.7.0b               scorep/1.4.1
+hypre/2.9.0b               silo/4.10.2
+itac/8.0.3.007             suitesparse/3.6.0
+jasper/1.900.1             suitesparse/4.2.1
+libctl/3.1                 tau/2.24
+libunwind/1.1              udunits/2.2.17
+lzo/2.04                   vtk/5.6.1
+mkl/10.3u2(default)        wxgtk/2.8.11
+
+-------------------------- /apps/Modules/applications --------------------------
+FusionMap/1.42            comsol/4.1                matlab/R2012a
+R/2.10.1                  comsol/4.2                meep/1.1.1
+R/2.13.0                  comsol/4.2a               mesmer/4.0
+R/2.15.0                  comsol/4.3                molpro/2006.1.148
+R/2.15.3                  comsol/4.3a               molpro/2010.1.23(default)
+R/3.0.2                   comsol/4.3b               molpro/2010.1.24
+R/3.1.0                   cufflinks/1.3.0           mpb/1.4.2
+R/3.2.0                   cufflinks/2.2.1           namd/2.7b4
+R/3.2.2                   desmond/2.2.9.1           namd/2.8
+abaqus/6.10               dl_poly/2.20              namd/2.9
+abaqus/6.12               dl_poly/4.05              nbo/6
+abaqus/6.9EF              ehits/12.0(default)       ncl/6.0.0-beta
+adams/2013.2              ehits/13.0                nco/4.0.8(default)
+aimpro/2.3.11b2           ehits/14.0.3              nco/4.3.7
+amber/10(default)         ehits/2009.1              ncview/1.93g
+amber/12                  espresso/4.1.2            onetep/3.0.0
+amber/9                   ferret/6.8.5              opendx/4.4.4
+ansys/12.0                gaussian/G03.D02          openeye/3.0.1
+ansys/12.1                gaussian/G09              openfoam/1.7.1
+ansys/13.0                gaussian/G09.D01          openfoam/2.1.1
+ansys/13.0sp2             gmt/4.5.2                 paraview/3.8.1
+ansys/14.0                gnuplot/4.2.3             pari/2.5.0
+ansys/14.5.7              grace/5.1.22              relion/1.2
+ansys/16.2                gromacs/4.5.1             samtools/0.1.18
+ansysem/15.0              gromacs/4.5.3             sas/9.2.2
+aten/1.3                  gromacs/4.5.5             schrodinger/2014-3
+bfast/0.7.0a              gromacs/4.6.3             schrodinger/2016-3
+blast/2.2.25              gulp/3.4                  stata/12
+bowtie/0.12.7             h5utils/1.12.1            stata/13
+bwa/0.6.1                 hyperworks/10(default)    stata/13.1
+bwa/0.7.6a                idl/7.0                   tophat/1.3.3
+castep/4.4.6              iris-explorer/5.2         visit/2.9.2
+castep/5.0.1              joint-snv-mix/0.7.3       vmd/1.8.7
+castep/5.0.2              ls-dyna/971r4.2.1         weka/3.6.7
+castep/5.5                macs/1.3.7                wien2k/09.2
+castep/5.5.1              macs/1.4.1                wien2k/11.1
+castep/6.0p3(default)     materialsstudio/5.5.3     xmipp/2.4
+castep/6.1.1              matlab/7.9(default)
+
+------------------- /home/ufaserv1_i/issmcal/privatemodules --------------------
+conda/2 conda/3
